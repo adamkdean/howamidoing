@@ -2,10 +2,8 @@
   "name": "healthcheck",
   "version": "0.0.0",
   "description": "Making sure you know the servers gonna die before it dies ",
-  "main": "lib/index.js",
-  "scripts": {
-    "start": "node lib/index.js"
-  },
+  "bin": "lib/healthcheck.js",
+  "preferGlobal": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/adamkdean/healthcheck.git"
@@ -15,5 +13,9 @@
   "bugs": {
     "url": "https://github.com/adamkdean/healthcheck/issues"
   },
-  "homepage": "https://github.com/adamkdean/healthcheck#readme"
+  "homepage": "https://github.com/adamkdean/healthcheck#readme",
+  "dependencies": {
+    "optimist": "^0.6.1",
+    "update-notifier": "^0.5.0"
+  }
 }
