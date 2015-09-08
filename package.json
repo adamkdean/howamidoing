@@ -1,6 +1,6 @@
 {
   "name": "howamidoing",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Making sure you know the servers gonna die before it dies ",
   "bin": "lib/howamidoing.js",
   "preferGlobal": true,
