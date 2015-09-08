@@ -1,8 +1,8 @@
 {
   "name": "howamidoing",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Making sure you know the servers gonna die before it dies ",
-  "bin": "lib/howamidoing.js",
+  "bin": "bin/howamidoing.js",
   "preferGlobal": true,
   "repository": {
     "type": "git",
