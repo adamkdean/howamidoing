@@ -1,6 +1,6 @@
 {
   "name": "healthcheck",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Making sure you know the servers gonna die before it dies ",
   "bin": "lib/healthcheck.js",
   "preferGlobal": true,
