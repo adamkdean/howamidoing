@@ -1,0 +1,19 @@
+{
+  "name": "healthcheck",
+  "version": "0.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamkdean/healthcheck.git"
+  },
+  "author": "Adam K Dean <adamkdean@googlemail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adamkdean/healthcheck/issues"
+  },
+  "homepage": "https://github.com/adamkdean/healthcheck#readme"
+}
