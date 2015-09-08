@@ -1,19 +1,19 @@
 {
-  "name": "healthcheck",
+  "name": "howamidoing",
   "version": "0.0.1",
   "description": "Making sure you know the servers gonna die before it dies ",
-  "bin": "lib/healthcheck.js",
+  "bin": "lib/howamidoing.js",
   "preferGlobal": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adamkdean/healthcheck.git"
+    "url": "git+https://github.com/adamkdean/howamidoing.git"
   },
   "author": "Adam K Dean <adamkdean@googlemail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/adamkdean/healthcheck/issues"
+    "url": "https://github.com/adamkdean/howamidoing/issues"
   },
-  "homepage": "https://github.com/adamkdean/healthcheck#readme",
+  "homepage": "https://github.com/adamkdean/howamidoing#readme",
   "dependencies": {
     "optimist": "^0.6.1",
     "update-notifier": "^0.5.0"

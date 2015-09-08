@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 'use strict';
 
-var healthcheck = require('../lib/'),
+var howamidoing = require('../lib/'),
     pkg = require('../package.json'),
     updateNotifier = require('update-notifier'),
     notifier = updateNotifier({
@@ -13,4 +13,4 @@ if (notifier.update) {
     notifier.notify();
 }
 
-healthcheck();
+howamidoing();
